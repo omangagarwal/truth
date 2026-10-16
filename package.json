@@ -1,0 +1,16 @@
+{
+  "name": "signalcheck",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-vercel.mjs",
+    "test:vercel": "node scripts/test-vercel-sql.mjs"
+  },
+  "dependencies": {
+    "postgres": "^3.4.7"
+  }
+}
